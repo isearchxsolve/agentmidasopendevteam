@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": ".test-dist",
+    "types": ["node"]
+  },
+  "include": ["src/sessionReplay.ts", "tests/**/*.test.ts"]
+}
