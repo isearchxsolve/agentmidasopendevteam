@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022"],
+    "strict": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": ".",
+    "outDir": ".test-dist",
+    "skipLibCheck": true
+  },
+  "include": ["src/domain.ts", "src/pipelineStore.ts", "tests/**/*.ts"]
+}
